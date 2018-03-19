@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="connect">connect</string>
+    <string name="disconnect">disconnect</string>
+    <string name="subscribe">subscribe</string>
+    <string name="publish">publish</string>
+    <string name="subscribe_topic">subscribe topic</string>
+    <string name="topic_example">test</string>
+    <string name="receive">Receive</string>
+    <string name="push_message_example">hello</string>
+</resources>

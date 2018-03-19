@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/set_mqtt_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MQTT Server"/>
+
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect" />
+
+    <Button
+        android:id="@+id/button_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/disconnect" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subscribe_topic"/>
+    <EditText
+        android:id="@+id/sub_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/topic_example"/>
+    <Button
+        android:id="@+id/button_subscribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subscribe" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="push topic"/>
+    <EditText
+        android:id="@+id/push_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/topic_example"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="push message"/>
+    <EditText
+        android:id="@+id/push_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/push_message_example"/>
+    <Button
+        android:id="@+id/button_publish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/publish" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/receive"/>
+    <TextView
+        android:id="@+id/mqtt_receive"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
